@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BusForUs</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Jura&display=swap" rel="stylesheet">
+	<link href="dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="full">
+		<header>
+			<div class="row">
+				<div class="col-2 logo">
+					<a href="index.html">
+						<img src="bus.png" alt="bus">
+						<span>BusForUs</span>
+					</a>
+				</div>
+				<div class="col-10 menu">
+					<nav>
+						<ul class="nav nav-pills justify-content-center">
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Карта маршрутов</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">Минск-Берлин</a>
+									<a class="dropdown-item" href="#">Минск-Париж</a>
+									<a class="dropdown-item" href="#">Минск-Барселона</a>
+									<a class="dropdown-item" href="#">Минск-Рим</a>
+									<a class="dropdown-item" href="#">Минск-Варшава</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Спланировать поездки</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Услуги</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">О нас</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link " href="#"><img src="busket.png"> Корзина </a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Войти</a>
+							</li>
+						</ul>                   
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<section id="mytickets">
+			<p>Мои билеты</p>
+		</section>
+
+		<section id="ticket">
+			<div class="row">
+				<div class="col-2">
+					<img src="paris.jpg">
+				</div>
+				<div class="col-1"></div>
+				<div class="col-6">
+					<div class="direction">
+						<p>Минск - Париж</p>
+					</div>
+					<div class="row">
+						<table class="table table-sm">
+							<thead>
+								<tr>
+									<th scope="col">Отправление:</th>
+									<th scope="col">Прибытие:</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Автовокзал (Минск)</td>
+									<td>Автовокзал №1 (Париж)</td>
+								</tr>
+								<tr>
+									<td>01-мар-2020</td>
+									<td>02-мар-2020</td>
+								</tr>
+								<tr>
+									<td>22:00</td>
+									<td>12:00</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-2 pay">
+					<div>235 BYN</div>
+					<p>Оплачено</p>
+					<button>Отменить поездку</button>
+				</div>
+			</div>
+		</section>
+
+		<section id="ticket">
+			<div class="row">
+				<div class="col-2">
+					<img src="barcelona.jpg">
+				</div>
+				<div class="col-1"></div>
+				<div class="col-6">
+					<div class="direction">
+						<p>Минск - Барселона</p>
+					</div>
+					<div class="row">
+						<table class="table table-sm">
+							<thead>
+								<tr>
+									<th scope="col">Отправление:</th>
+									<th scope="col">Прибытие:</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Автовокзал (Минск)</td>
+									<td>Автовокзал №1 (Барселона)</td>
+								</tr>
+								<tr>
+									<td>26-мар-2020</td>
+									<td>27-мар-2020</td>
+								</tr>
+								<tr>
+									<td>21:30</td>
+									<td>18:00</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-2 pay">
+					<div>308 BYN</div>
+					<p>Оплачено</p>
+					<button>Отменить поездку</button>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="row">
+				<div class="col-3">
+					<a href="#"><img src="instagram.png"><span>@BusForUs</span></a>
+				</div>
+				<div class="col-3">
+					<a href="#"><img src="vk.png"><span>/BusForUs</span></a>
+				</div>
+				<div class="col-3">
+					<a href="#"><img src="telegram.png"><span>/BusForUs</span></a>
+				</div>
+				<div class="col-3"><p><a href="https://vk.com/papekooo">Papeka Aliaksei</a> © 2020</p></div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="dist/js/datepicker.min.js"></script>
+</body>
+</html>

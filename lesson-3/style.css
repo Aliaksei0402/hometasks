@@ -1,0 +1,211 @@
+body {
+	width: 100%;
+	margin: 0;
+	font-family: georgia;
+	background-color: #9ca38e;
+}
+
+.full {
+	width: 960px;
+	height: 80px;
+	margin: auto;
+}
+
+header {
+	background-color: #7f8a69;
+}
+
+.logo a {
+	display: block;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.logo span {
+	display: block;
+	padding: 0;
+	width: 88px;
+	margin: auto;
+	color: #FFD700;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px #000;
+}
+
+.logo img {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	color: #fff;
+}
+
+nav a {
+	font-family: 'Jura';
+	font-size: 17px;
+	text-shadow: 1px 0 1px grey;
+	color: #14241f;
+}
+
+nav img {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	padding-bottom: 3px;
+}
+
+.menu {
+	margin-top: 20px;
+}
+
+.active {
+	background-color: #d5dbc8;
+	border-radius: 10px solid #d5dbc8;
+}
+
+.btn-primary {
+	background-color: #d5dbc8;
+	border: 0;
+	color: grey;
+}
+
+.btn-primary:hover {
+	background-color: #d5dbc8;
+}
+
+section#search {
+	width: 960px;
+	height: 118px;
+	border: 2px solid #7f8a69;
+	margin-top: 20px;
+	padding: 40px 0;
+}
+
+section#slider h5 {
+	font-family: 'Ubuntu Mono';
+	color: #000000;
+}
+
+section#slider {
+	border: 2px solid #7f8a69;
+	margin-top: 20px;
+}
+
+.carousel-item h5 {
+	display: block;
+	border-radius: 5px; 
+	background-color: white;
+}
+
+section#sale {
+	border: 2px solid #7f8a69;
+	margin-top: 20px;
+	height: 449px;
+}
+
+section#sale .iphone img  {
+	margin-top: 20px;
+	width: 353px;
+	height: 425px;
+	display: block;
+	margin-left: 100px;
+}
+
+section#sale .note img  {
+	margin-top: 20px;
+	width: 353px;
+	height: 425px;
+	display: block;
+	margin-right: 100px;
+}
+
+footer {
+	border: 2px solid #7f8a69;
+	margin-top: 20px;
+	width: 100%;
+	text-align: right;
+	font-family: 'Jura';
+	font-size: 17px;
+	text-shadow: 1px 0 1px grey;
+	color: #14241f;
+	text-decoration: none;
+}
+
+footer p {
+	display: block;
+	margin: 17px 5px 14px;
+}
+
+footer img {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
+
+footer a {
+	font-family: 'Jura';
+	font-size: 17px;
+	text-shadow: 1px 0 1px grey;
+	color: #14241f;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #14241f;
+	text-decoration: none;
+}
+
+div#carouselExampleCaptions {
+	max-width: 60%;
+	max-height: 50%;
+	margin: 20px auto;
+}
+
+.margin50 {
+	margin-left: 40px;
+}
+
+.stepper__input {
+	height: 39px;
+}
+
+section#ticket img {
+	height: 201px;
+	width: 134px;
+}
+
+section#ticket {
+	border: 2px solid #7f8a69;
+	margin-top: 20px;
+}
+
+section#mytickets {
+	border: 2px solid #7f8a69;
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Jura';
+	font-size: 17px;
+	text-shadow: 1px 0 1px grey;
+	color: #14241f;
+}
+
+section#mytickets p {
+	margin-top: 13px;
+}
+
+.direction {
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Jura';
+	font-size: 17px;
+	text-shadow: 1px 0 1px grey;
+	color: #14241f;
+}
+
+.pay {
+	padding: 30px 20px 0 0;
+	text-align: center;
+	font-family: 'Jura';
+	font-size: 17px;
+	text-shadow: 1px 0 1px grey;
+	color: #14241f;
+}
