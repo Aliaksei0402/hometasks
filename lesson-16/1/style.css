@@ -1,0 +1,28 @@
+#text {
+  margin-top: 10px;
+  height: 450px;
+  width: 800px;
+  overflow: auto scroll;
+  border: 1px solid red;
+  line-height: 1;
+  padding: 10px;
+}
+
+#genre {
+  margin-top: 10px;
+}
+
+#author {
+  margin-top: 10px;
+}
+
+img {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+button {
+  padding: 0;
+  text-align: center;
+  font-size: 17px;
+}
