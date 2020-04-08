@@ -1,0 +1,63 @@
+#searchBlock {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+  border: 1px solid grey;
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.left {
+  width: 80%;
+  margin: 10px;
+}
+
+.right {
+  height: 100%;
+  width: 15%;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  display: inline;
+}
+
+.address {
+  display: inline;
+}
+
+img {
+  max-width: 100px;
+  max-height: 50px;
+}
+
+.top {
+  padding: 10px;
+  border: 1px solid green;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.text {
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+h2 {
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rosybrown;
+}
