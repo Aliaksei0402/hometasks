@@ -1,0 +1,20 @@
+[
+  {
+    "address": "ul. Pushkina, 59",
+    "averageBuyers": "1000",
+    "sq": "700",
+    "year": "2008"
+  },
+  {
+    "address": "ul. Lermontova, 59",
+    "averageBuyers": "650",
+    "sq": "300",
+    "year": "2018"
+  },
+  {
+    "address": "ul. Dostoevskogo, 59",
+    "averageBuyers": "3600",
+    "sq": "2100",
+    "year": "2017"
+  }
+]
