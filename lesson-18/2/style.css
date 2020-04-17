@@ -1,0 +1,13 @@
+.defaultFile {
+  border: 1px solid red;
+}
+
+#data {
+  width: 430px;
+  margin: 20px auto;
+}
+
+#table {
+  width: 430px;
+  margin: auto;
+}
