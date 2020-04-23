@@ -1,0 +1,50 @@
+[
+  {
+    "name": "A",
+    "words": 3263582,
+    "year": 1994,
+    "author": "Zenchenko",
+    "language": "russian",
+    "edition": "Pravda"
+  },
+  {
+    "name": "B",
+    "words": 514852,
+    "year": 1998,
+    "author": "Papeko",
+    "language": "english",
+    "edition": "Lozh"
+  },
+  {
+    "name": "C",
+    "words": 65245,
+    "year": 2009,
+    "author": "Abramenko",
+    "language": "deutsch",
+    "edition": "Triumf"
+  },
+  {
+    "name": "D",
+    "words": 48595,
+    "year": 2019,
+    "author": "Konovalov",
+    "language": "english",
+    "edition": "Pravda"
+  },
+  {
+    "name": "dead Souls",
+    "words": 85485,
+    "year": 1885,
+    "author": "Gogol",
+    "language": "russian",
+    "edition": "Moscow"
+  },
+  {
+    "name": "Pokolenie",
+    "words": 42548,
+    "year": 1985,
+    "author": "Papeko",
+    "language": "russian",
+    "edition": "Lozh"
+  }
+]
