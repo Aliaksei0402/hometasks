@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Paris",
+    "latitude": 48.85341,
+    "longitude": 2.3488,
+    "pause": 0
+  },
+  {
+    "id": 2,
+    "name": "Nancy",
+    "latitude": 48.6932,
+    "longitude": 6.18279,
+    "pause": 2700
+  },
+  {
+    "id": 3,
+    "name": "Besancon",
+    "latitude": 47.2367,
+    "longitude": 6.02231,
+    "pause": 1800
+  },
+  {
+    "id": 4,
+    "name": "Grenoble",
+    "latitude": 45.188529,
+    "longitude": 5.724524,
+    "pause": 900
+  },
+  {
+    "id": 5,
+    "name": "Toulon",
+    "latitude": 43.11667,
+    "longitude": 5.93333,
+    "pause": 600
+  },
+  {
+    "id": 6,
+    "name": "Nimes",
+    "latitude": 43.8369,
+    "longitude": 4.36,
+    "pause": 1200
+  },
+  {
+    "id": 7,
+    "name": "Toulouse",
+    "latitude": 43.604,
+    "longitude": 1.44305,
+    "pause": 1800
+  },
+  {
+    "id": 8,
+    "name": "Bordeaux",
+    "latitude": 44.837789,
+    "longitude": -0.57918,
+    "pause": 2400
+  },
+  {
+    "id": 9,
+    "name": "La Rochelle",
+    "latitude": 46.1594,
+    "longitude": -1.15,
+    "pause": 1800
+  },
+  {
+    "id": 10,
+    "name": "Rennes",
+    "latitude": 48.11198,
+    "longitude": -1.67429,
+    "pause": 5400
+  },
+  {
+    "id": 11,
+    "name": "Kaen",
+    "latitude": 49.1822,
+    "longitude": -0.35,
+    "pause": 0
+  }
+]
