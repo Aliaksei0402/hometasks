@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" />
+    <title>Document</title>
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=8675787d-286b-495f-90f6-c0708ebd0375&lang=ru_RU"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="map"></div>
+      <div id="details">
+        <div><h3>Расчет времени</h3></div>
+        <div id="info"></div>
+        <input type="number" id="speed" placeholder="Введите скорость, км/ч" />
+        <button id="button">Посчитать</button>
+        <div id="time"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

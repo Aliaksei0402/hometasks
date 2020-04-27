@@ -1,0 +1,13 @@
+#app {
+  display: flex;
+}
+
+#map {
+  width: 40%;
+  height: 100vh;
+}
+
+#details {
+  width: 50%;
+  height: 300px;
+}
