@@ -1,27 +1,23 @@
 <template>
   <div id="app">
-    
+    <ul>
+      <li v-for="item in breweries" :key="item.id" :item="item">
+        {{ item.name }}
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import breweries from "./data/breweries";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
+  components: {},
+  data: () => ({
+    breweries,
+  }),
 };
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style lang="scss"></style>
