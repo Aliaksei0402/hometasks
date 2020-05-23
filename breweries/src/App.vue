@@ -1,19 +1,29 @@
 <template>
   <div id="app">
-    <ul>
-      <li v-for="item in breweries" :key="item.id" :item="item">
+    <div v-for="item in breweries" :key="item.id" :item="item">
+      <div class="alert alert-info">
         {{ item.name }}
-      </li>
-    </ul>
+        <Address :item="item" />
+        <Coords :item="item" />
+        <div>Телефон: {{ item.phone }}</div>
+      </div>
+    </div>
+
+    <!-- < v-for="item in breweries" :key="item.id" :item="item" /> -->
   </div>
 </template>
 
 <script>
 import breweries from "./data/breweries";
+import Address from "./components/Address.vue";
+import Coords from "./components/Coords";
 
 export default {
   name: "App",
-  components: {},
+  components: {
+    Address,
+    Coords,
+  },
   data: () => ({
     breweries,
   }),
