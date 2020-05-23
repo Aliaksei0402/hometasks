@@ -1,10 +1,13 @@
 <template>
   <div>
-    <p>Страна: {{ item.country }}</p>
-    <p>Штат: {{ item.state }}</p>
-    <p>Город: {{ item.city }}</p>
-    <p>Улица: {{ item.street }}</p>
-    <p>Индекс: {{ item.postal_code }}</p>
+    <div class="postal-code">
+      <img src="../../img/street.png" width="50" />
+      <p>Улица: {{ item.street }}</p>
+    </div>
+    <div class="postal-code">
+      <img src="../../img/letter.png" width="50" />
+      <p>Почтовый индекс: {{ item.postal_code }}</p>
+    </div>
   </div>
 </template>
 
@@ -15,8 +18,4 @@ export default {
 };
 </script>
 
-<style scoped>
-p {
-  color: red;
-}
-</style>
+<style></style>

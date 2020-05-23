@@ -1,3 +1,39 @@
+#app {
+  text-align: center;
+}
+
 p {
   margin: 0;
+}
+
+.brewery {
+  max-width: 600px;
+  margin: auto;
+}
+.coords {
+  display: flex;
+  justify-content: flex-end;
+  color: #336;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.beer {
+  width: 20%;
+}
+
+.postal-code {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #366;
+}
+
+.city {
+  text-align: center;
+  color: #336;
 }

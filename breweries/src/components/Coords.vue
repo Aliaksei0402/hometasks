@@ -1,7 +1,10 @@
 <template>
-  <div>
-    <p>Долгота: {{ item.latitude }}</p>
-    <p>Широта: {{ item.longitude }}</p>
+  <div class="coords">
+    <img src="../../img/map.png" width="50" />
+    <div>
+      <p>Долгота: {{ item.latitude }}</p>
+      <p>Широта: {{ item.longitude }}</p>
+    </div>
   </div>
 </template>
 
